@@ -1,0 +1,125 @@
+body{
+    font-family: Arial,  sans-serif;
+    background-color: #f1eeee;
+    color: rgb(11, 11, 11);
+    margin: 0;
+    padding-top: 60px;
+}
+nav{
+    padding: 18px;
+    text-align: center;
+    background-color: navy;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+nav a{
+
+    text-decoration: none;
+    margin:0 12px;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s;
+    padding: 8px 12px;
+}
+nav a:hover{
+    background-color:darkseagreen;
+    color: #111;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+section{padding: 40px 5%;}
+#home{
+    text-align: center;
+    padding: 120px 20px;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home h1{
+    font-size: 50px;
+    margin-top:0 0 10px;
+}
+#home h2{
+    font-size: 20px;
+    color:navy;
+    margin: 10px 0;
+}
+#home p{
+    font-size: 18px;
+    max-width: 600px;
+}
+#projects h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.project-container{
+    
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project-card {
+    background-color: #fff;
+    padding: 25px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.project-card h3{
+    color:navy;
+}
+#skills{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+
+}
+.skills-container span {
+    background-color: navy;
+    color:white;
+    padding:10px 20px;
+    border-radius: 20px;
+}
+#about h2{
+    color: navy;
+}
+#about p{
+    line-height: 1.7;
+    font-size: 17px;
+}
+#about a{
+    color:navy;
+    font-weight: bold;
+}
+#links{
+    text-align:center;
+}
+.links-container{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+.links-container a{
+    background-color:navy;
+    color:white;
+    padding:12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.links-container a:hover{
+    background-color: darkseagreen;
+    color: #111;
+}
